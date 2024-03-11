@@ -1,99 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-07T21:03:44 IST" name="FREE CRM Application Test Automation Test Suite" finished-at="2024-03-07T21:04:52 IST" duration-ms="68620">
+  <suite started-at="2024-03-11T12:51:51 IST" name="Default suite" finished-at="2024-03-11T12:52:02 IST" duration-ms="10564">
     <groups>
     </groups>
-    <test started-at="2024-03-07T21:03:44 IST" name="Free CRM App Test Cases" finished-at="2024-03-07T21:04:52 IST" duration-ms="68620">
-      <class name="com.mcp.qa.testcases.ExistingCustomerTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mcp.qa.testcases.ExistingCustomerTest@443118b0]" started-at="2024-03-07T21:04:12 IST" name="setUp" finished-at="2024-03-07T21:04:14 IST" duration-ms="2251" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="existingtest()[pri:0, instance:com.mcp.qa.testcases.ExistingCustomerTest@443118b0]" started-at="2024-03-07T21:04:14 IST" name="existingtest" finished-at="2024-03-07T21:04:18 IST" duration-ms="3383" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- existingtest -->
-      </class> <!-- com.mcp.qa.testcases.ExistingCustomerTest -->
+    <test started-at="2024-03-11T12:51:51 IST" name="Default test" finished-at="2024-03-11T12:52:02 IST" duration-ms="10564">
       <class name="com.mcp.qa.testcases.TransactionDetailsTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mcp.qa.testcases.TransactionDetailsTest@618b19ad]" started-at="2024-03-07T21:04:31 IST" name="setUp" finished-at="2024-03-07T21:04:45 IST" duration-ms="14145" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mcp.qa.testcases.TransactionDetailsTest@59662a0b]" started-at="2024-03-11T12:51:52 IST" name="setUp" finished-at="2024-03-11T12:51:55 IST" duration-ms="3289" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testCustomerLoginFlow()[pri:0, instance:com.mcp.qa.testcases.TransactionDetailsTest@618b19ad]" started-at="2024-03-07T21:04:45 IST" name="testCustomerLoginFlow" finished-at="2024-03-07T21:04:52 IST" duration-ms="7325" status="PASS">
+        <test-method signature="testCustomerLoginFlow()[pri:0, instance:com.mcp.qa.testcases.TransactionDetailsTest@59662a0b]" started-at="2024-03-11T12:51:55 IST" name="testCustomerLoginFlow" finished-at="2024-03-11T12:52:02 IST" duration-ms="7211" status="FAIL">
+          <exception class="org.openqa.selenium.NoAlertPresentException">
+            <message>
+              <![CDATA[no such alert
+  (Session info: chrome=122.0.6261.112)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [01b87cead11cd934a14cc0a81cc348b2, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.57 (87957e464700..., userDataDir: C:\Users\rohit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51643}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51643/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 01b87cead11cd934a14cc0a81cc348b2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=122.0.6261.112)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [01b87cead11cd934a14cc0a81cc348b2, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.57 (87957e464700..., userDataDir: C:\Users\rohit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51643}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51643/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 01b87cead11cd934a14cc0a81cc348b2
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:680)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:684)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1252)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringTargetLocator.alert(EventFiringWebDriver.java:767)
+at com.mcp.qa.pages.CustomerDashboardPage.transactionsflow(CustomerDashboardPage.java:285)
+at com.mcp.qa.testcases.TransactionDetailsTest.testCustomerLoginFlow(TransactionDetailsTest.java:25)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoAlertPresentException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCustomerLoginFlow -->
       </class> <!-- com.mcp.qa.testcases.TransactionDetailsTest -->
-      <class name="com.mcp.qa.testcases.DepositAndWithdrawalTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mcp.qa.testcases.DepositAndWithdrawalTest@74235045]" started-at="2024-03-07T21:04:22 IST" name="setUp" finished-at="2024-03-07T21:04:25 IST" duration-ms="2288" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testCustomerLoginFlow()[pri:0, instance:com.mcp.qa.testcases.DepositAndWithdrawalTest@74235045]" started-at="2024-03-07T21:04:25 IST" name="testCustomerLoginFlow" finished-at="2024-03-07T21:04:31 IST" duration-ms="6018" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCustomerLoginFlow -->
-      </class> <!-- com.mcp.qa.testcases.DepositAndWithdrawalTest -->
-      <class name="com.mcp.qa.testcases.OpenAccountTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mcp.qa.testcases.OpenAccountTest@639c2c1d]" started-at="2024-03-07T21:03:57 IST" name="setUp" finished-at="2024-03-07T21:04:00 IST" duration-ms="3260" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="managertest()[pri:1, instance:com.mcp.qa.testcases.OpenAccountTest@639c2c1d]" started-at="2024-03-07T21:04:00 IST" name="managertest" finished-at="2024-03-07T21:04:04 IST" duration-ms="4487" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- managertest -->
-      </class> <!-- com.mcp.qa.testcases.OpenAccountTest -->
-      <class name="com.mcp.qa.testcases.CustomerLoginAndDetailsTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mcp.qa.testcases.CustomerLoginAndDetailsTest@765d7657]" started-at="2024-03-07T21:04:18 IST" name="setUp" finished-at="2024-03-07T21:04:20 IST" duration-ms="2293" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testCustomerLoginFlow()[pri:0, instance:com.mcp.qa.testcases.CustomerLoginAndDetailsTest@765d7657]" started-at="2024-03-07T21:04:20 IST" name="testCustomerLoginFlow" finished-at="2024-03-07T21:04:22 IST" duration-ms="2357" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCustomerLoginFlow -->
-      </class> <!-- com.mcp.qa.testcases.CustomerLoginAndDetailsTest -->
-      <class name="com.mcp.qa.testcases.AddCustomersTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mcp.qa.testcases.AddCustomersTest@515c6049]" started-at="2024-03-07T21:03:48 IST" name="setUp" finished-at="2024-03-07T21:03:50 IST" duration-ms="2267" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="customerDetails()[pri:1, instance:com.mcp.qa.testcases.AddCustomersTest@515c6049]" started-at="2024-03-07T21:03:50 IST" name="customerDetails" finished-at="2024-03-07T21:03:52 IST" duration-ms="2120" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- customerDetails -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mcp.qa.testcases.AddCustomersTest@515c6049]" started-at="2024-03-07T21:03:52 IST" name="setUp" finished-at="2024-03-07T21:03:54 IST" duration-ms="2131" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="invalidCustomerDetails()[pri:2, instance:com.mcp.qa.testcases.AddCustomersTest@515c6049]" started-at="2024-03-07T21:03:54 IST" name="invalidCustomerDetails" finished-at="2024-03-07T21:03:57 IST" duration-ms="2102" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidCustomerDetails -->
-      </class> <!-- com.mcp.qa.testcases.AddCustomersTest -->
-      <class name="com.mcp.qa.testcases.HomeAndNavigationTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mcp.qa.testcases.HomeAndNavigationTest@6cf0e0ba]" started-at="2024-03-07T21:03:44 IST" name="setUp" finished-at="2024-03-07T21:03:47 IST" duration-ms="2938" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Homepagefun()[pri:0, instance:com.mcp.qa.testcases.HomeAndNavigationTest@6cf0e0ba]" started-at="2024-03-07T21:03:47 IST" name="Homepagefun" finished-at="2024-03-07T21:03:48 IST" duration-ms="1275" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Homepagefun -->
-      </class> <!-- com.mcp.qa.testcases.HomeAndNavigationTest -->
-      <class name="com.mcp.qa.testcases.CustomersTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mcp.qa.testcases.CustomersTest@5fe94a96]" started-at="2024-03-07T21:04:04 IST" name="setUp" finished-at="2024-03-07T21:04:07 IST" duration-ms="2262" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="managertest()[pri:1, instance:com.mcp.qa.testcases.CustomersTest@5fe94a96]" started-at="2024-03-07T21:04:07 IST" name="managertest" finished-at="2024-03-07T21:04:12 IST" duration-ms="5597" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- managertest -->
-      </class> <!-- com.mcp.qa.testcases.CustomersTest -->
-    </test> <!-- Free CRM App Test Cases -->
-  </suite> <!-- FREE CRM Application Test Automation Test Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

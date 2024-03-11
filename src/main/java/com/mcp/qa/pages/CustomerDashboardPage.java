@@ -2,6 +2,7 @@ package com.mcp.qa.pages;
 
 import java.time.Duration;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -281,6 +282,10 @@ public class CustomerDashboardPage extends TestBase {
 		System.out.println("Clicked on Date Picker 2");
 		
 		waitForElementToBeVisible(resetBtn).click();
+		Alert alt = driver.switchTo().alert();
+		String confirmationalert = alt.getText();
+		Assert.assertEquals(confirmationalert, "Are you sure you want to Reset the Transation History?", "Transaction History is cleared!!.");
+		alt.accept();
 		System.out.println("Clicked on Reset Button");
 		
 		waitForElementToBeVisible(backBtn).click();

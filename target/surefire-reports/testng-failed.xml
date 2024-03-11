@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Manipal Capstone Project XYZ Bank Automation]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Maniap Capstone Project Running on Chrome(failed)" verbose="0">
+    <classes>
+      <class name="com.mcp.qa.testcases.TransactionDetailsTest">
+        <methods>
+          <include name="testCustomerLoginFlow"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.mcp.qa.testcases.TransactionDetailsTest -->
+      <class name="com.mcp.qa.testcases.CustomersTest">
+        <methods>
+          <include name="managertest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.mcp.qa.testcases.CustomersTest -->
+      <class name="com.mcp.qa.testcases.AddCustomersTest">
+        <methods>
+          <include name="invalidCustomerDetails"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.mcp.qa.testcases.AddCustomersTest -->
+    </classes>
+  </test> <!-- Maniap Capstone Project Running on Chrome(failed) -->
+</suite> <!-- Failed suite [Manipal Capstone Project XYZ Bank Automation] -->

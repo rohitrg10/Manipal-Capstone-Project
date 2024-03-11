@@ -7,7 +7,8 @@
 	</listeners>
 
 
-	<test name="Maniap Capstone Project">
+	<test name="Maniap Capstone Project Running on Chrome">
+
 		<classes>
 			<class name="com.mcp.qa.testcases.HomeAndNavigationTest"></class>
 			<class name="com.mcp.qa.testcases.AddCustomersTest"></class>
@@ -18,7 +19,7 @@
 			<class name="com.mcp.qa.testcases.DepositAndWithdrawalTest"></class>
 			<class name="com.mcp.qa.testcases.TransactionDetailsTest"></class>
 			
-
 		</classes>
 	</test>
 </suite>
+

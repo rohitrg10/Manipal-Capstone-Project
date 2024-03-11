@@ -1,4 +1,32 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 52.743 s - in TestSuite
+Tests run: 9, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 73.272 s <<< FAILURE! - in TestSuite
+invalidCustomerDetails(com.mcp.qa.testcases.AddCustomersTest)  Time elapsed: 1.994 s  <<< FAILURE!
+java.lang.AssertionError: Account is not added as the details are invalid expected [Please provide the valid Customer details] but found [Customer added successfully with customer id :6]
+	at com.mcp.qa.testcases.AddCustomersTest.invalidCustomerDetails(AddCustomersTest.java:33)
+
+managertest(com.mcp.qa.testcases.CustomersTest)  Time elapsed: 6.494 s  <<< FAILURE!
+org.openqa.selenium.NoAlertPresentException: 
+no such alert
+  (Session info: chrome=122.0.6261.112)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7dcd10de570ee8ce802bada90889892c, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.57 (87957e464700..., userDataDir: C:\Users\rohit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52450}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52450/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7dcd10de570ee8ce802bada90889892c
+	at com.mcp.qa.testcases.CustomersTest.managertest(CustomersTest.java:27)
+
+testCustomerLoginFlow(com.mcp.qa.testcases.TransactionDetailsTest)  Time elapsed: 10.406 s  <<< FAILURE!
+org.openqa.selenium.NoAlertPresentException: 
+no such alert
+  (Session info: chrome=122.0.6261.112)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [348e42e0cd2d6c3e01690685e2cea9ab, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.57 (87957e464700..., userDataDir: C:\Users\rohit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52559}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52559/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 348e42e0cd2d6c3e01690685e2cea9ab
+	at com.mcp.qa.testcases.TransactionDetailsTest.testCustomerLoginFlow(TransactionDetailsTest.java:25)
+

@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.mcp.qa.testcases.DepositAndWithdrawalTest">
+      <class name="com.mcp.qa.testcases.TransactionDetailsTest">
         <methods>
           <include name="testCustomerLoginFlow"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.mcp.qa.testcases.DepositAndWithdrawalTest -->
+      </class> <!-- com.mcp.qa.testcases.TransactionDetailsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
